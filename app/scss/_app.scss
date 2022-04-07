@@ -356,12 +356,20 @@
   }
 }
 
-.sign {
+.subscribe {
+
   &__form {
-    position: relative;
     max-width: 500px;
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__form-inner {
+    margin-bottom: 10px;
+    position: relative;
   }
 
   &__input {
@@ -384,6 +392,10 @@
     top: 50%;
     transform: translateY(-50%);
     right: 10px;
+  }
+
+  .mc4wp-response {
+    color: red;
   }
 }
 
